@@ -27,11 +27,11 @@
                 <label class="cube__label-one cube__label"
                   >Введите первоначальный уровень (м³)
                 </label>
-                <input class="cube__input-one cube__input" type="number" placeholder="0.00"/>
+                <input class="cube__input-one cube__input" type="text" placeholder="0.00"/>
               </div>
               <div class="cube__form-two">
                 <label class="cube__label-two cube__label">Введите конечный уровень (м³)</label>
-                <input class="cube__input-two cube__input" type="number" placeholder="0.00"/>
+                <input class="cube__input-two cube__input" type="text" placeholder="0.00"/>
               </div>
               <button class="cube__btn-result" type="submit">Расчитать</button>
             </form>
@@ -40,37 +40,44 @@
 
         <!-- cube result -->
         <div class="result">
-          <div class="initial">
+          <div class="initial box">
             <img
               src="./img/arrow-down-circle.svg"
               alt="svg-icon"
-              class="result__img-one"
+              class="img result__img-one"
             />
-            <p class="result-text">
-              Первоначальный обьем:
+            <div class="result__content">
+              <p class="result-text">
+                Начальный обьем:
+              </p>
               <strong class="result-strong">1,73 м³</strong>
-            </p>
+            </div>
           </div>
-          <div class="finite">
+          <div class="finite box">
             <img
               src="./img/arrow-down-circle.svg"
               alt="svg-icon"
-              class="result__img-two"
+              class="img result__img-two"
             />
-            <p class="result-text">
-              Конечный обьем: <strong class="result-strong">1,73 м³</strong>
-            </p>
-          </div>
-          <div class="total">
-            <img
-              src="./img/arrow-down-circle.svg"
-              alt="svg-icon"
-              class="result__img-three"
-            />
-            <p class="result-text">
-              Итого было откачено:
+            <div class="result__content">
+              <p class="result-text">
+                Конечный обьем:
+              </p>
               <strong class="result-strong">1,73 м³</strong>
-            </p>
+            </div>
+          </div>
+          <div class="total box">
+            <img
+              src="./img/arrow-down-circle.svg"
+              alt="svg-icon"
+              class="img result__img-three"
+            />
+            <div class="result__content">
+              <p class="result-text">
+                Итого откачено:
+              </p>
+              <strong class="result-strong">1,73 м³</strong>
+            </div>
           </div>
         </div>
       </div>
