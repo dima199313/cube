@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <!-- cube title -->
+        <div class="cube">
+          <div class="cube__title">
+            <h1>Cube app</h1>
+          </div>
+          <div class="cube__form">
+            <form class="cube__form-control">
+              <div class="cube__form-one">
+                <label class="cube__label-one cube__label"
+                  >Введите первоначальный уровень (м³)
+                </label>
+                <input class="cube__input-one cube__input" type="number" placeholder="0.00"/>
+              </div>
+              <div class="cube__form-two">
+                <label class="cube__label-two cube__label">Введите конечный уровень (м³)</label>
+                <input class="cube__input-two cube__input" type="number" placeholder="0.00"/>
+              </div>
+              <button class="cube__btn-result" type="submit">Расчитать</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- cube result -->
+        <div class="result">
+          <div class="initial">
+            <img
+              src="./img/arrow-down-circle.svg"
+              alt="svg-icon"
+              class="result__img-one"
+            />
+            <p class="result-text">
+              Первоначальный обьем:
+              <strong class="result-strong">1,73 м³</strong>
+            </p>
+          </div>
+          <div class="finite">
+            <img
+              src="./img/arrow-down-circle.svg"
+              alt="svg-icon"
+              class="result__img-two"
+            />
+            <p class="result-text">
+              Конечный обьем: <strong class="result-strong">1,73 м³</strong>
+            </p>
+          </div>
+          <div class="total">
+            <img
+              src="./img/arrow-down-circle.svg"
+              alt="svg-icon"
+              class="result__img-three"
+            />
+            <p class="result-text">
+              Итого было откачено:
+              <strong class="result-strong">1,73 м³</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <footer class="footer"></footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

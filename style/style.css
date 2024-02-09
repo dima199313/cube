@@ -1,0 +1,90 @@
+body{
+  background-color: rgb(80, 92, 82);
+  font-family: 'Open Sans', sans-serif;
+}
+.header {
+}
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid red;
+  padding: 0 15px;
+}
+.cube {
+  background-color: rgb(206, 206, 206);
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.cube__title {
+  font-size: 3.6em;
+  font-weight: 500;
+  padding: 0 15px;
+}
+.cube__form {
+}
+.cube__form-control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 15px;
+}
+.cube__form-one {
+  display: flex;
+  flex-direction: column;
+}
+.cube__label{
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.cube__input{
+  margin-bottom: 15px;
+  max-width: 150px;
+  padding:10px 10px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: 900;
+
+}
+.cube__label-one {
+
+}
+.cube__input-one {
+}
+.cube__form-two {
+  display: flex;
+  flex-direction: column;
+}
+.cube__label-two {
+
+}
+.cube__input-two {
+}
+.cube__btn-result {
+  background-color: rgb(116, 161, 121);
+  width: 150px;
+  border-radius: 8px;
+  padding:10px 10px;
+  font-size: 1.1em;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.result {
+}
+.initial {
+}
+.result__img-one {
+}
+.result-text {
+}
+.result-strong {
+}
+.finite {
+}
+.result__img-two {
+}
+.total {
+}
+.result__img-three {
+}
