@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(80, 92, 82);
+  background-color: rgb(7, 79, 79);
   font-family: 'Open Sans', sans-serif;
 }
 .header {
@@ -16,9 +16,13 @@ body {
   margin-bottom: 50px;
 }
 .cube__title {
-  font-size: 3.3em;
-  font-weight: 500;
+  font-size: 3em;
   padding: 0 15px;
+}
+.cube__title-span{
+  font-size: 0.5em;
+  font-weight: 500;
+  color: rgb(16, 138, 138);
 }
 .cube__form {
 }
@@ -58,7 +62,7 @@ body {
 .cube__input-two {
 }
 .cube__btn-result {
-  background-color: rgb(116, 161, 121);
+  background-color: rgb(16, 158, 158);
   width: 150px;
   border-radius: 8px;
   padding: 10px 10px;
@@ -68,7 +72,7 @@ body {
   transition: all 0.2s ease-in;
 }
 .cube__btn-result:hover {
-  background-color: rgb(56, 79, 58);
+  background-color: rgb(7, 88, 88);
   color: aliceblue;
 }
 
@@ -105,6 +109,9 @@ body {
 .result-strong {
   font-size: 1.7em;
 }
+.liter-one, .liter-two, .liter-three {
+  color: rgb(16, 138, 138);
+}
 .finite {
 }
 .result__img-two {
@@ -113,4 +120,14 @@ body {
 }
 .result__img-three {
   transform: rotate(270deg);
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+.footer-text p{
+ color: aliceblue;
 }
